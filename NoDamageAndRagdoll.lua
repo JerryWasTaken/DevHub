@@ -1,6 +1,6 @@
 --// variables 
 
-local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/Jailbreak/KeyFetcher.lua"))();
+local keys, network = loadstring(game:HttpGet("https://raw.githubusercontent.com/JerryWasTaken/DevHub/main/KeyFetcher.lua"))();
 
 --// no fall damage / no ragdoll
 
