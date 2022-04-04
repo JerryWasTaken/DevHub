@@ -66,11 +66,11 @@ do -- kick
     network_keys.Kick = fetch_key(kick_function);
 end;
 
-do -- spawncar
+--[[do -- spawncar
     local spawn_car_function = require(replicated_storage.Garage.UI.Garage).OnItemSpawnClick._handlerListHead._fn;
 
     network_keys.SpawnCar = fetch_key(spawn_car_function);
-end;
+end;--]]
 
 do -- damage
     local military_added_function = require(game_folder.MilitaryTurret.MilitaryTurretBinder)._classAddedSignal._handlerListHead._fn;
