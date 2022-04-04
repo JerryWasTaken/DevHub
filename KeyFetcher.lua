@@ -67,7 +67,7 @@ do -- kick
 end;
 
 do -- spawncar
-    local spawn_car_function = require(game_folder.Garage.GarageUI.SpawnUI).OnItemSpawnClick._handlerListHead._fn;
+    local spawn_car_function = require(game_folder.Garage.UI.Garage).OnItemSpawnClick._handlerListHead._fn;
 
     network_keys.SpawnCar = fetch_key(spawn_car_function);
 end;
